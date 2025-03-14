@@ -1,6 +1,0 @@
-pip install pandas numpy scikit-learn
-pip install tensorflow keras
-pip install fastapi uvicorn
-pip install pydantic python-multipart
-
-

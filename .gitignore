@@ -1,5 +1,7 @@
 mclxvenv
 .idea
-data/Dataset_1.csv
-data/Dataset1.csv
+model/Dataset_1.csv
+Database\Dataset_1.csv
+Database/Dataset_1.csv
+
 
