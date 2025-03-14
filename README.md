@@ -35,7 +35,7 @@ pip install pydantic python-multipart
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/symptoms-checker.git
+   git clone https://github.com/mozaddedalfeshani/symptoms-checker.git
    cd symptoms-checker
    ```
 
