@@ -3,6 +3,7 @@ venv/
 
 # Ignore dataset folder
 assets/
+practice/
 
 # Ignore Jupyter Notebook checkpoints
 **/.ipynb_checkpoints/
