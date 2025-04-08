@@ -1,48 +1,96 @@
-# SymptomsChecker
+# 🧠 Symptoms Checker AI
 
-## Project Description
+A smart AI-based application that predicts possible diseases based on selected symptoms using machine learning. Built with Python, Pandas, Scikit-learn, and Jupyter Notebook.
 
-SymptomsChecker is a machine learning-based application designed to help users identify potential health conditions based on their symptoms. It leverages a trained deep learning model to provide accurate and timely suggestions.
+## 📁 Project Structure
 
-## Installation
-
-### Data Handling & Preprocessing
-
-```bash
-pip install pandas numpy scikit-learn
+```
+SymptomChecker/
+│
+├── assets/                     # Contains dataset files (excluded from Git)
+│   ├── Dataset_1.csv
+│   └── Dataset_1.xlsx
+│
+├── src/
+│   ├── jupitarNotebook/       # Notebooks for data analysis and model training
+│   │   ├── main.ipynb
+│   │   ├── pandas_sklearn_disease_...
+│   │   ├── practicePandas.ipynb
+│   │   ├── symptomsCheck.ipynb
+│   │   └── Testing.ipynb
+│   │
+│   └── practiceCode/          # Python code used outside notebook
+│       └── practice.py
+│
+├── venv/                      # Python virtual environment (excluded from Git)
+├── .gitignore                 # Git ignore rules
+├── README.md                  # You're here!
+└── requirements.txt           # List of dependencies
 ```
 
-### Deep Learning (Model Training)
+## ⚙️ Installation
+
+1. **Clone the repository:**
 
 ```bash
-pip install tensorflow keras
+git clone https://github.com/mozaddedalfeshani/SymptomsChecker.git
+cd SymptomsChecker
 ```
 
-### API Backend (FastAPI)
+2. **Create and activate a virtual environment:**
 
 ```bash
-pip install fastapi uvicorn
+python -m venv venv
+source venv/bin/activate      # For Linux/macOS
+venv\Scripts\activate         # For Windows
 ```
 
-### Model Deployment & Communication
+3. **Install dependencies:**
 
 ```bash
-pip install pydantic python-multipart
+pip install -r requirements.txt
 ```
 
-## Usage
+## 📊 Dataset
 
-## Contributing
+> ⚠️ The `assets/` folder is ignored from Git. The dataset is not uploaded here due to GitHub's file size limit.
 
-Contributions are welcome! Please follow these steps:
+- You can download the dataset separately and place it in the `assets/` folder.
 
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes.
-4. Commit your changes (`git commit -m 'Add some feature'`).
-5. Push to the branch (`git push origin feature-branch`).
-6. Open a pull request.
+## 🚀 Features
 
-## License
+- Input symptoms manually
+- Machine learning-based disease prediction
+- High accuracy using symptom frequency
+- Clean and modular code
+- Easy to extend with new data
+
+## 🧪 Notebooks
+
+- **main.ipynb** – Final model testing
+- **practicePandas.ipynb** – Data cleaning and exploration
+- **symptomsCheck.ipynb** – Main logic for symptoms-based prediction
+
+## 🛠️ Technologies Used
+
+- Python
+- Pandas
+- Scikit-learn
+- Jupyter Notebook
+
+## 🧠 Future Plans
+
+- Web interface for user input
+- API backend using FastAPI
+- React frontend integration
+- Integration with cloud databases
+
+## 📜 License
 
 This project is licensed under the MIT License.
+
+## 🙋‍♂️ Author
+
+**Mozadded Al Feshani (Murad)**  
+🔗 [LinkedIn](https://www.linkedin.com/in/mozaddedalfeshani/)  
+📂 [GitHub](https://github.com/mozaddedalfeshani)
