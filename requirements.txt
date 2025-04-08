@@ -1,0 +1,14 @@
+<<<<<<< HEAD
+
+numpy
+pandas
+matplotlib
+=======
+fastapi==0.115.11
+uvicorn==0.34.0
+tensorflow==2.15.0
+numpy==1.23.5
+pydantic==1.10.7
+scikit-learn==1.5.1
+pandas==1.5.3
+>>>>>>> 91c1d17f2c6f7744a86690a59c85e6e466b85294
